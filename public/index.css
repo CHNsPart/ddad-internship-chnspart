@@ -1,0 +1,50 @@
+#outputframe {
+    height: 124px;
+    width: 345px;
+    text-align: center;
+    border: 3px solid #007bff;
+    align-self: center;
+}
+
+.name {
+    font-size: smaller;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.name:hover {
+    transform: scale(1.1);
+    color: #007bff;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+#output {
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    color: #007bff;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    width: 50%;
+    align-content: center;
+    align-self: center;
+}
